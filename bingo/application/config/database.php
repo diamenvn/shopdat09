@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'shopgamesm_usr',
-	'password' => 'Dat872342@@##',
-	'database' => 'shopgamesm_db',
+	'hostname' => '103.97.124.196',
+	'username' => 'shopdat09',
+	'password' => '7DP3r5aCXGLbf3fK',
+	'database' => 'shopdat09',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
