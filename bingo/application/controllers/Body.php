@@ -48,7 +48,7 @@ $this->load->model('user_model');
 
    public function index(){
 
-
+    
         $user = is_user();
 
         $data['user_profile'] = $user;

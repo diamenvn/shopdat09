@@ -75,14 +75,14 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '103.97.124.196',
-	'username' => 'shopdat09',
-	'password' => '7DP3r5aCXGLbf3fK',
+	'hostname' => '127.0.0.1',
+	'username' => 'root',
+	'password' => 'root',
 	'database' => 'shopdat09',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
-	'db_debug' => (ENVIRONMENT !== 'production'),
+	'db_debug' => FALSE,
 	'cache_on' => FALSE,
 	'cachedir' => '',
 	'char_set' => 'utf8',

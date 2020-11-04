@@ -1,6 +1,7 @@
 <?php
+// $count = $this->db->query("SELECT COUNT(*),FROM_UNIXTIME(date) AS MYDATE FROM `lichsuquay` WHERE `loainick` = 'FFVIP' OR `loainick` = 'FFGAS' OR `loainick` = 'FFTHEM' OR `loainick` = 'FFTIEN' OR `loainick` = 'FFCONG' OR `loainick` = 'FFBAD' AND FROM_UNIXTIME(date) LIKE '%".date('Y-m-d',time())."%'")->row_array()['COUNT(*)'] * get_value('price');
 
-$count = $this->db->query("SELECT COUNT(*),FROM_UNIXTIME(date) AS MYDATE FROM `lichsuquay` WHERE `loainick` = 'FFVIP' OR `loainick` = 'FFGAS' OR `loainick` = 'FFTHEM' OR `loainick` = 'FFTIEN' OR `loainick` = 'FFCONG' OR `loainick` = 'FFBAD' AND FROM_UNIXTIME(date) LIKE '%".date('Y-m-d',time())."%'")->row_array()['COUNT(*)'] * get_value('price');
+$count = null;
 $huVang = number_format($count - 406670000);
 
 ?>
@@ -27,7 +28,7 @@ $huVang = number_format($count - 406670000);
 
                     </select>
 
-                    <img src="/assets/img/gif/quay.gif" id="start-played">
+                    <img src="assets/img/gif/quay.gif" id="start-played">
 
 
                 </section>
@@ -35,7 +36,7 @@ $huVang = number_format($count - 406670000);
         </div>
         <div class="row game-list">
           <p>
-            <a href="/kimcuong" class="col-xs-12 btn btn-success m-btn btn--custom m-btn--icon m-btn--pill">
+            <a href="kimcuong" class="col-xs-12 btn btn-success m-btn btn--custom m-btn--icon m-btn--pill">
                     <span>
                         <i class="la la-cloud-upload"></i>
                         <span>Rút vật phẩm</span>
@@ -54,7 +55,7 @@ $huVang = number_format($count - 406670000);
 <h3 style="font-size:23px; color: #FFFF00; font-weight: 600">Có 2.339 Người Tham Gia QUAY</span></h3>
 </div>
 
-                                  <p class="sl-primg"><img src="/assets/img/bingo.gif" alt="Freefire"></p>
+                                  <p class="sl-primg"><img src="assets/img/bingo.gif" alt="Freefire"></p>
                               </a>
 <div class="history">
         <div class="table-head">
@@ -125,65 +126,12 @@ $huVang = number_format($count - 406670000);
         </div>
         <div class="scroll-element scroll-x scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="width: 88px;"></div></div></div><div class="scroll-element scroll-y scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="height: 29px; top: 0px;"></div></div></div></div>
       </div>
-<div class="history">
-        <div class="table-head">
-          <table class="table">
-            <thead>
-              <tr>
-                <th>TRÚNG BINGO x7-x9</th>
-                <th>Thời Gian</th>
-<th>Tên</th>
-              </tr>
-            </thead>
-          </table>
-        </div>
-        <div class="scroll-wrapper table-body scrollbar-inner" style="position: relative;"><div class="table-body scrollbar-inner scroll-content scroll-scrolly_visible" style="height: auto; margin-bottom: 0px; margin-right: 0px; max-height: 448px;">
-          <table class="table table-bordered">
-            <tbody>
 
-
-
-                <tr>
-                  <td>x7 BINGO Nhận 35.000 KC</td>
-                  <td>15 Phút Trước</td>
-                  <td>Trâm Như</td>
-                </tr>
-<tr>
-                  <td>x9 BINGO Nhận 45.000 KC</td>
-                  <td>23 Phút Trước</td>
-                  <td>Phát Tài</td>
-                </tr>
-<tr>
-                  <td>x7 BINGO Nhận 16.500 KC</td>
-                  <td>35 Phút Trước</td>
-                  <td>Hý Mỳ</td>
-                </tr>
-<tr>
-                  <td>x3 BINGO Nhận 27.000 KC</td>
-                  <td>55 Phút Trước</td>
-                  <td>Kiều Ánh</td>
-                </tr>
-<tr>
-                  <td>x3 BINGO Nhận 15.000 KC</td>
-                  <td>1 Giờ Trước</td>
-                  <td>Yến Thương</td>
-                </tr>
-</tbody>
-</table>
-        </div><div class="scroll-element scroll-x scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="width: 88px;"></div></div></div><div class="scroll-element scroll-y scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="height: 29px; top: 0px;"></div></div></div></div>
-      </div>
-</div>
-</div>
-
-
-    </div>
-  </div>
-</div>
   <div class="modal fade modal-cs" id="modalRules" role="dialog">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
-                      <h3 class="modal-title"><img src="/wp-content/uploads/2018/11/title-the-le.png" alt=""></h3>
+                      <h3 class="modal-title"><img src="wp-content/uploads/2018/11/title-the-le.png" alt=""></h3>
 
           <button class="close" data-dismiss="modal">&times;</button>
         </div>
@@ -204,7 +152,7 @@ $huVang = number_format($count - 406670000);
     <div class="modal-dialog">
       <div class="modal-content" style="background-image: url(/wp-content/uploads/2018/11/boxgift.jpg )">
         <div class="modal-header">
-                      <h3 class="modal-title"><img src="/wp-content/uploads/2018/11/title-giai-thuong.png" alt=""></h3>
+                      <h3 class="modal-title"><img src="wp-content/uploads/2018/11/title-giai-thuong.png" alt=""></h3>
                     <button class="close" data-dismiss="modal">&times;</button>
         </div>
         <div class="modal-body">
@@ -271,11 +219,11 @@ $huVang = number_format($count - 406670000);
     <div class="modal-dialog">
       <div class="modal-content" style="background-image: url(/wp-content/uploads/2018/12/bg1.png)">
         <div class="modal-header">
-                      <h3 class="modal-title"><img src="/wp-content/uploads/2018/11/title-giai-thuong.png" alt=""></h3>
+                      <h3 class="modal-title"><img src="wp-content/uploads/2018/11/title-giai-thuong.png" alt=""></h3>
                   </div>
         <div class="modal-body">
         <div class="results"></div>
-        <p>Để xem lịch sử quay vào <a href="/lich-su-quay.html"><em><strong>Lịch sử quay</strong></em></a>. Để xem nick đã nhận/trúng thưởng vào <em><strong><a href="/lich-su-quay.html">Nick đã nhận được</a></strong></em>.</p>
+        <p>Để xem lịch sử quay vào <a href="lich-su-quay.html"><em><strong>Lịch sử quay</strong></em></a>. Để xem nick đã nhận/trúng thưởng vào <em><strong><a href="lich-su-quay.html">Nick đã nhận được</a></strong></em>.</p>
         </div>
         <div class="modal-footer">
           <button data-dismiss="modal" style="background-image: url(/wp-content/uploads/2018/11/button.png )" class="ani-zoom btn-img">Xác nhận</button>
